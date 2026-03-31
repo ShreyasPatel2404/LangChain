@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Hello, I am a researcher interested in {paper_input}. Can you provide an explanation of this paper in a {style_input} style and keep it {length_input}?",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
